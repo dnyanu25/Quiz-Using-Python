@@ -12,8 +12,8 @@ def tbl():
     c.execute("CREATE TABLE IF NOT EXISTS Questionpython(ID INTEGER PRIMARY KEY, QUES TEXT UNIQUE, OPT1 TEXT, OPT2 TEXT, OPT3 TEXT, OPT4 TEXT, ANS TEXT, ANSWEROPT INTEGER, CATEGORY TEXT)")
     c.execute("CREATE TABLE IF NOT EXISTS Questionjava(ID INTEGER PRIMARY KEY, QUES TEXT UNIQUE, OPT1 TEXT, OPT2 TEXT, OPT3 TEXT, OPT4 TEXT, ANS TEXT, ANSWEROPT INTEGER, CATEGORY TEXT)")
     c.execute("CREATE TABLE IF NOT EXISTS CATAGORY(ID INTEGER ,CATG TEXT UNIQUE)")
-    connection.commit()  # Make sure to commit the changes after creating the tables
-    connection.close()  # Close the connection after committing changes
+    connection.commit()  # Make sure to commit the changes after creating the tables.
+    connection.close()  # Close the connection after committing changes.
     print("Tables created successfully")
     # addData()
 
@@ -77,9 +77,11 @@ def tbl():
 #         connection.close()
 tbl()
 # # addData()
+#add data as you want in it 
     
 
 
        
 
         
+
