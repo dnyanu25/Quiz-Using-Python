@@ -15,7 +15,7 @@ def choice(i):
             print("\n **Selected as an Admin**\n")
             adminfun.admin()
         case 3:
-            print("\nThank You Bye\n")
+            print("\n*** Thank You Bye ***\n")
             sys.exit()
         case _ :
             print("try again")
@@ -42,4 +42,5 @@ def main():
 
 if __name__ == "__main__":
         main()
+
 
