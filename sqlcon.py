@@ -77,11 +77,12 @@ def tbl():
 #         connection.close()
 tbl()
 # # addData()
-#add data as you want in it 
+#add data as you want in it or you can take input from user/ admin can add
     
 
 
        
 
         
+
 
