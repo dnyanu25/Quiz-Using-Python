@@ -9,10 +9,10 @@ import adminfun
 def choice(i):
     match i:
         case 1:
-            print("\nSelected as a user\n")
+            print("\n** Selected as a user **\n")
             userfun.user()
         case 2:
-            print("\nselected as an Admin\n")
+            print("\n **Selected as an Admin**\n")
             adminfun.admin()
         case 3:
             print("\nThank You Bye\n")
@@ -42,3 +42,4 @@ def main():
 
 if __name__ == "__main__":
         main()
+
