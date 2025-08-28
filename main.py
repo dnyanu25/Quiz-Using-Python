@@ -34,7 +34,7 @@ def begin():
 # Main function
 def main():
     try:
-        # sqlcon.tbl()  # Table created
+        # sqlcon.tbl()  # Table created.
         print("done")
         begin()
     except Exception as e:
@@ -42,5 +42,6 @@ def main():
 
 if __name__ == "__main__":
         main()
+
 
 
