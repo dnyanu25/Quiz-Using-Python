@@ -31,7 +31,7 @@ def fetchQpy(c):
 
 
 def fetch_all_users(c):
-    # Execute the SQL query and fetch all rows
+    # Execute the SQL query and  fetch all rows
     rows = c.execute("SELECT ID, NAME, SCORES, QUIZSCORE FROM user").fetchall()
 
     # Create a DataFrame from the fetched rows
@@ -342,3 +342,4 @@ def editQ():
 
 
 # fetchQpy(c)
+
