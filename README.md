@@ -1,5 +1,5 @@
 
-# QuizVS
+# QuizVS 
 
 **QuizVS** is a Python-based quiz application that supports administrative and user functionalities. It uses SQLite for data storage and provides a basic command-line interface for interacting with quiz data.
 
