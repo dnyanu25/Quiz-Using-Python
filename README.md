@@ -6,7 +6,7 @@
 ## Features
 
 - Admin and user login functionalities
-- Create, edit, and manage quiz questions (admin)
+- Create, edit, and manage quiz questions (admin) 
 - Attempt quizzes and view scores (user)
 - Persistent data storage using SQLite
 
